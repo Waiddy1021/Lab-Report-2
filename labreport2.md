@@ -45,14 +45,18 @@ Here is one the the test method given to us, which when run will give us an OK p
 
 ![Image](Img2.png)
 
-However, all may seem good, but the code has an error in it. When given another test example, the expected value for the parameter[0] is supposed to be 3, but instead it was 2 
+However, all may seem good, but the code has an error in it. When given another test example, the expected value for the parameter[0] is supposed to be 3, but instead it was 0. 
 
 ![Image](Img3.png)
+Test failed image:
+
 ![Image](Img4.png)
 
 When, reading throughout the code, we can see a newarray has been created, but nothing is getting added into it. To fix the bug we will simplility rewrite line 20. and return newArray 
 
 ![Image](Img5.png)
+Test pass Img, when the test is run again:
+
 ![Image](Img6.png)
 
 and when it is run, all the test have been passed.
